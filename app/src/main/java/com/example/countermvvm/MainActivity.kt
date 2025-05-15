@@ -33,6 +33,7 @@ class MainActivity : ComponentActivity() {
             CounterMVVMTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                 }
+
                 TheCounterApp()
             }
         }
@@ -58,7 +59,7 @@ fun TheCounterApp(){
         Text(text = "Count : ${count.value}",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
-        )
+            )
 
         Spacer(modifier = Modifier.height(16.dp))
 
