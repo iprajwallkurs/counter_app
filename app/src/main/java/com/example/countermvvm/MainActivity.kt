@@ -47,7 +47,6 @@ fun TheCounterApp(){
     fun increment(){
         count.value++
     }
-
     fun decrement(){
         count.value--
     }
@@ -60,7 +59,9 @@ fun TheCounterApp(){
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
         )
+
         Spacer(modifier = Modifier.height(16.dp))
+
         Row{
             Button(onClick = {increment()}) {
                 Text("Increment")
