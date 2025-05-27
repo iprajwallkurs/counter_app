@@ -31,8 +31,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CounterMVVMTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                }
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding -> }
                 TheCounterApp()
             }
         }
