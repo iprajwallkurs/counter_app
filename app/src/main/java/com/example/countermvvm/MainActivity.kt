@@ -33,7 +33,6 @@ class MainActivity : ComponentActivity() {
             CounterMVVMTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                 }
-
                 TheCounterApp()
             }
         }
