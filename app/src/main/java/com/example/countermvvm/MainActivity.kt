@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContent {
+        setContent{
             CounterMVVMTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding -> }
                 TheCounterApp()
@@ -53,7 +53,6 @@ fun TheCounterApp(){
     fun decrement(){
         count.value--
     }
-
     Column (modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally)
