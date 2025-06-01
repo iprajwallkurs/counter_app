@@ -53,6 +53,7 @@ fun TheCounterApp(){
     fun decrement(){
         count.value--
     }
+
     Column (modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally)
