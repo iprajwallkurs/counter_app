@@ -50,6 +50,7 @@ fun TheCounterApp(){
     fun increment(){
         count.value++
     }
+
     fun decrement(){
         count.value--
     }
