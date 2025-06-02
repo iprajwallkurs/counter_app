@@ -67,11 +67,11 @@ fun TheCounterApp(){
 
         Row{
             Button(onClick = {increment()}) {
-                Text("Increment")
+                Text(" Increment ")
                 Text(" + ")
             }
             Button(onClick = {decrement()}) {
-                Text("Decrement ")
+                Text(" Decrement ")
                 Text(" - ")
             }
         }
