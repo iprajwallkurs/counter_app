@@ -70,7 +70,6 @@ fun TheCounterApp(){
             }
             Button(onClick = {decrement()}) {
                 Text(" Decrement ")
-                Text(" - ")
             }
         }
     }
