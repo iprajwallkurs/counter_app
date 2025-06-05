@@ -63,7 +63,6 @@ fun TheCounterApp(){
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
             )
-
         Row{
             Button(onClick = {increment()}) {
                 Text(" Increment ")
