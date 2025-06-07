@@ -43,7 +43,6 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-
 fun TheCounterApp(){
     val count = remember { mutableStateOf(0) }
 
