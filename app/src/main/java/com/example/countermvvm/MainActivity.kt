@@ -43,14 +43,15 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+
 fun TheCounterApp(){
     val count = remember { mutableStateOf(0) }
 
     fun increment(){
-        count.value ++
+        count.value++
     }
     fun decrement(){
-        count.value --
+        count.value--
     }
     Column (modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
