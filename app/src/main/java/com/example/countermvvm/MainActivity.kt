@@ -58,9 +58,10 @@ fun TheCounterApp(){
             horizontalAlignment = Alignment.CenterHorizontally)
     {
         Text(text = "Count : ${count.value}",
-            fontSize = 24.sp,
+            fontSize = 26.sp,
             fontWeight = FontWeight.Bold
             )
+        Spacer(modifier = Modifier.height(16.dp))
         Row{
             Button(onClick = {increment()}) {
                 Text("Increment")
