@@ -30,9 +30,9 @@ Your ViewModel doesn’t directly call the API or Room DB.
 It asks the Repository, and the repository handles whether to fetch data from the network, database, or both.
 
 Why use Repository?
-
+| --------------------------------------------| ----------------------------------------------------------------------|
 | Reason                                      | Explanation                                                           |
-| ------------------------------------------- | --------------------------------------------------------------------- |
+| --------------------------------------------| ----------------------------------------------------------------------|
 | Centralized data logic                      | All data operations are in one place.                                 |
 | Easier to switch data sources               | Want to switch from Retrofit to Firebase? Just change the Repository. |
 | Testable                                    | You can mock the repository easily in tests.                          |
