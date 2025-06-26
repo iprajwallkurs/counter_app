@@ -38,4 +38,5 @@ Why use Repository?
 | Testable                                    | You can mock the repository easily in tests.                          |
 | Decouples ViewModel and data sources        | ViewModel doesn’t care where data comes from.                         |
 | ------------------------------------------- | ----------------------------------------------------------------------|
- */
+
+*/
