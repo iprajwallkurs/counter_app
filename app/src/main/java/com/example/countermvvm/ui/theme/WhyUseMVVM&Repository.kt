@@ -20,6 +20,7 @@ Why use MVVM?
 | Handles configuration changes        | ViewModel survives screen rotation, so data isn’t lost.        |
 | Easier to test                       | Logic is separated from UI, making unit testing simple.        |
 | Cleaner code                         | Avoids spaghetti code in Activities or Fragments.              |
+| ------------------------------------ | -------------------------------------------------------------  |
 
 What is Repository?
 The Repository is like a data manager. It acts as a single source of truth and decides where the data should come from — API, local DB, or cache.
@@ -37,5 +38,5 @@ Why use Repository?
 | Easier to switch data sources               | Want to switch from Retrofit to Firebase? Just change the Repository. |
 | Testable                                    | You can mock the repository easily in tests.                          |
 | Decouples ViewModel and data sources        | ViewModel doesn’t care where data comes from.                         |
-
+| ------------------------------------------- | ----------------------------------------------------------------------|
  */
