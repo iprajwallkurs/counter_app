@@ -1,11 +1,12 @@
 package com.example.countermvvm.ui.theme
 
 /*
+
 First, What is MVVM?
 MVVM stands for Model - View - ViewModel.
 It’s a software architecture pattern that helps in organizing your Android code cleanly and efficiently.
 
- Breakdown:
+Breakdown:
 Model → Handles the data (from API, database, etc.)
 
 View → The UI (Activity, Fragment, XML layout)
