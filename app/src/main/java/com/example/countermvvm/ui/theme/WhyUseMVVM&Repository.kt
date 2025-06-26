@@ -8,20 +8,18 @@ It’s a software architecture pattern that helps in organizing your Android cod
 
 Breakdown:
 Model → Handles the data (from API, database, etc.)
-
 View → The UI (Activity, Fragment, XML layout)
-
 ViewModel → Middleman between View and Model. It holds UI-related data and logic, and survives configuration changes (like screen rotation).
 
 Why use MVVM?
-
+ --------------------------------------| ---------------------------------------------------------------|
 | Reason                               | Explanation                                                    |
-| ------------------------------------ | -------------------------------------------------------------  |
+| -------------------------------------| ---------------------------------------------------------------|
 | Separation of concerns               | Each layer has its own job. UI doesn’t talk directly to data.  |
 | Handles configuration changes        | ViewModel survives screen rotation, so data isn’t lost.        |
 | Easier to test                       | Logic is separated from UI, making unit testing simple.        |
 | Cleaner code                         | Avoids spaghetti code in Activities or Fragments.              |
-| ------------------------------------ | -------------------------------------------------------------  |
+| ------------------------------------ | ---------------------------------------------------------------|
 
 What is Repository?
 The Repository is like a data manager. It acts as a single source of truth and decides where the data should come from — API, local DB, or cache.
