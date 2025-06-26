@@ -16,10 +16,10 @@ Why use MVVM?
 
 | Reason                               | Explanation                                                    |
 | ------------------------------------ | -------------------------------------------------------------  |
-| ✅ **Separation of concerns**         | Each layer has its own job. UI doesn’t talk directly to data. |
-| 🔁 **Handles configuration changes** | ViewModel survives screen rotation, so data isn’t lost.        |
-| 🧪 **Easier to test**                | Logic is separated from UI, making unit testing simple.        |
-| 👨‍💻 **Cleaner code**                  | Avoids spaghetti code in Activities or Fragments.              |
+| Separation of concerns               | Each layer has its own job. UI doesn’t talk directly to data.  |
+| Handles configuration changes        | ViewModel survives screen rotation, so data isn’t lost.        |
+| Easier to test                       | Logic is separated from UI, making unit testing simple.        |
+| Cleaner code                         | Avoids spaghetti code in Activities or Fragments.              |
 
 What is Repository?
 The Repository is like a data manager. It acts as a single source of truth and decides where the data should come from — API, local DB, or cache.
@@ -33,9 +33,9 @@ Why use Repository?
 
 | Reason                                      | Explanation                                                           |
 | ------------------------------------------- | --------------------------------------------------------------------- |
-| 🧩 **Centralized data logic**               | All data operations are in one place.                                 |
-| 🔄 **Easier to switch data sources**        | Want to switch from Retrofit to Firebase? Just change the Repository. |
-| 🧪 **Testable**                             | You can mock the repository easily in tests.                          |
-| 💼 **Decouples ViewModel and data sources** | ViewModel doesn’t care where data comes from.                         |
+| Centralized data logic                      | All data operations are in one place.                                 |
+| Easier to switch data sources               | Want to switch from Retrofit to Firebase? Just change the Repository. |
+| Testable                                    | You can mock the repository easily in tests.                          |
+| Decouples ViewModel and data sources        | ViewModel doesn’t care where data comes from.                         |
 
  */
