@@ -12,7 +12,7 @@ View → The UI (Activity, Fragment, XML layout)
 ViewModel → Middleman between View and Model. It holds UI-related data and logic, and survives configuration changes (like screen rotation).
 
 Why use MVVM?
- --------------------------------------| ---------------------------------------------------------------|
+|--------------------------------------| ---------------------------------------------------------------|
 | Reason                               | Explanation                                                    |
 | -------------------------------------| ---------------------------------------------------------------|
 | Separation of concerns               | Each layer has its own job. UI doesn’t talk directly to data.  |
@@ -26,10 +26,10 @@ The Repository is like a data manager. It acts as a single source of truth and d
 
 How it works:
 Your ViewModel doesn’t directly call the API or Room DB.
-
 It asks the Repository, and the repository handles whether to fetch data from the network, database, or both.
 
 Why use Repository?
+
 | --------------------------------------------| ----------------------------------------------------------------------|
 | Reason                                      | Explanation                                                           |
 | --------------------------------------------| ----------------------------------------------------------------------|
